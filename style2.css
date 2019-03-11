@@ -1,12 +1,23 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #9af8ec;
-  color: #ffe861;
+  background:url('restaurant.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: gainsboro;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
-
+@font-face {
+    font-family: myFirstFont;
+    src: url('Rotterdalle.TTF');
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
 body {
   margin: 20px 0;  
 }
@@ -16,13 +27,16 @@ body {
   display: block;
   clear: both;
 }
-
+h1{
+    padding-right: 10px;
+}
 h1.title {
   font-size: 80px;
   font-weight: bold;
   margin: 0;
   display: block;
   float: left;
+  padding-right: 5px;
 }
 
 @-webkit-keyframes move-up {
@@ -162,7 +176,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #9bc5fcb9;
+  background: whitesmoke;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -341,7 +355,7 @@ hr {
 
 }
 .tile.tile-2 {
-  background: url('2.gif');
+  background: url('2-1.gif');
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 .tile.tile-4 {
