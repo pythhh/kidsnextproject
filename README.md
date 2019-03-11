@@ -4,8 +4,6 @@
 ## What we do
 * game for fun
 
-## reference
- *https://play2048.co/*
 ### Result
   we will show you with website [Game for you](https)
 
@@ -22,5 +20,10 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 | 61070155      | 61070161      | 61070163      | 61070184      |
 | Pattaranan    | Pavaree       | Pawinee       | Rattasit      |
-
+|[@pythhh](https://github.com/pythhh)|[@Cracker](https://github.com/Pavaree)|[@Faiifu](https://github.com/Faiifu)|[@toeyratsit](https://github.com/toeyratsit)|
 > about our multimedia game project.:shipit:
+
+## Reference
+ *We really thanks you [Game 2048](https://play2048.co/)* :video_game:
+ ## Credit image
+ *Image pixle [pug-of-war](http://pug-of-war.tumblr.com/)* :art:
