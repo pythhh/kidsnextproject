@@ -1,12 +1,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  background:url('restaurant.jpg');
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
+  background:url('restaurant.jpg')  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  color: gainsboro;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
@@ -19,7 +18,8 @@ html, body {
     font-family: myFirstFont;
  }
 body {
-  margin: 20px 0;  
+  margin: 20px 0;
+  
 }
 
 .heading:after {
@@ -31,11 +31,10 @@ h1{
     padding-right: 10px;
 }
 h1.title {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left;
   padding-right: 5px;
 }
 
@@ -73,7 +72,19 @@ h1.title {
   }
 }
 .score-container {
-  position: relative;
+    position: relative;
+    background: #bbada0;
+    padding: 25px 25px;
+    font-size: 50px;
+    height: 25px;
+    line-height: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    margin: 10px auto;
+    width: 450;
+
+    /*  position: relative;
   float: right;
   background: #bbada0;
   padding: 15px 25px;
@@ -82,8 +93,8 @@ h1.title {
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
-  margin-top: 8px;
+  color: blue;
+  margin-top: 8px;  */
 }
 .score-container:after {
   position: absolute;
@@ -104,7 +115,7 @@ h1.title {
   font-size: 25px;
   line-height: 25px;
   font-weight: bold;
-  color: rgba(119, 110, 101, 0.9);
+  color: white;
   z-index: 100;
   -webkit-animation: move-up 600ms ease-in;
   -moz-animation: move-up 600ms ease-in;
@@ -769,3 +780,4 @@ hr {
   .game-message .lower {
     margin-top: 30px !important;
   }
+}
