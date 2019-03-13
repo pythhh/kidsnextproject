@@ -6,7 +6,7 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Antonellie Callygraphy Demo","Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 h1.title {
- 
+  font-family: "Rotterdalle", sans-serif;
   color: white;
   font-size: 30px;
   font-weight: bold;
