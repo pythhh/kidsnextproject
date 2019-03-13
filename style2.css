@@ -11,7 +11,7 @@ html, body {
 }
 @font-face { 
   font-family: 'orange juice 2.0'; 
-  src: url('orange juice 2.0.ttf') format("truetype"); 
+  src: url('orange juice 2.0.ttf'); 
   }
 body {
   margin: 20px 0;  
@@ -773,3 +773,4 @@ hr {
   .game-message .lower {
     margin-top: 30px !important;
   }
+}
