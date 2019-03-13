@@ -9,7 +9,10 @@ html, body {
   font-family: "Antonellie Callygraphy Demo","Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
-
+@font-face { 
+  font-family: 'orange juice 2.0'; 
+  src: url('orange juice 2.0.ttf'); 
+  }
 body {
   margin: 20px 0;  
 }
@@ -21,7 +24,7 @@ body {
 }
 
 h1.title {
-  font-family: "Rotterdalle", sans-serif;
+  font-family: "orange juice 2.0", sans-serif;
   color: white;
   font-size: 30px;
   font-weight: bold;
@@ -770,3 +773,4 @@ hr {
   .game-message .lower {
     margin-top: 30px !important;
   }
+}
