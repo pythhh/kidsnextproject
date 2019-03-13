@@ -9,17 +9,9 @@ html, body {
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
-@font-face {
-    font-family: myFirstFont;
-    src: url('Rotterdalle.TTF');
- }
- 
- * {
-    font-family: myFirstFont;
- }
+
 body {
-  margin: 20px 0;
-  
+  margin: 20px 0;  
 }
 
 .heading:after {
@@ -27,11 +19,11 @@ body {
   display: block;
   clear: both;
 }
-h1{
-    padding-right: 10px;
-}
+
 h1.title {
-  font-size: 70px;
+ 
+  color: white;
+  font-size: 30px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -72,30 +64,21 @@ h1.title {
   }
 }
 .score-container {
-    position: relative;
-    background: #bbada0;
-    padding: 25px 25px;
-    font-size: 50px;
-    height: 25px;
-    line-height: 5px;
-    font-weight: bold;
-    border-radius: 10px;
-    color: white;
-    margin: 10px auto;
-    width: 450;
-
-    /*  position: relative;
+  position: relative;
   float: right;
   background: #bbada0;
   padding: 15px 25px;
-  font-size: 25px;
+  font-size: 20px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: blue;
-  margin-top: 8px;  */
+  color: white;
+  margin-top: 8px;
+  width: 450px;
+  text-align: center;
 }
+
 .score-container:after {
   position: absolute;
   width: 100%;
@@ -115,7 +98,7 @@ h1.title {
   font-size: 25px;
   line-height: 25px;
   font-weight: bold;
-  color: white;
+  color: rgba(119, 110, 101, 0.9);
   z-index: 100;
   -webkit-animation: move-up 600ms ease-in;
   -moz-animation: move-up 600ms ease-in;
@@ -179,7 +162,7 @@ hr {
     opacity: 1;
   }
 }
-.game-container /*ตารางทั้งหมด*/{
+.game-container {
   margin-top: 10px;
   position: relative;
   padding: 15px;
@@ -227,7 +210,7 @@ hr {
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+
   height: 40px;
   line-height: 42px;
   margin-left: 9px;
@@ -361,36 +344,44 @@ hr {
 }
 
 .tile {
+  color: rgba(238, 228, 218, 0.35);
   border-radius: 3px;
   background: #eee4da;
-
+  text-align: center;
+  font-weight: bold;
+  z-index: 10;
+  font-size: 55px;
+  -webkit-transition: 100ms ease-in-out;
+  -moz-transition: 100ms ease-in-out;
+  -webkit-transition-property: top, left;
+  -moz-transition-property: top, left;
 }
 .tile.tile-2 {
   background: url('img/2.gif');
-  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+
 }
 .tile.tile-4 {
   background: url('img/4.gif');
-  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+  
 }
 .tile.tile-8 {
-  color: #f9f6f2;
+  
   background: url('img/8.gif');
 }
 .tile.tile-16 {
-  color: #f9f6f2;
+  
   background: url('img/16.gif');
 }
 .tile.tile-32 {
-  color: #f9f6f2;
+  
   background: url('img/32.gif');
 }
 .tile.tile-64 {
-  color: #f9f6f2;
+  
   background: url('img/64.gif');
 }
 .tile.tile-128 {
-  color: #f9f6f2;
+  
   background: url('img/128.gif');
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
 }
@@ -400,10 +391,10 @@ hr {
   }
 }
 .tile.tile-256 {
-  color: #f9f6f2;
-  background: url('img/256.gif');
+  
+  background: url('img/256.gif');;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-  font-size: 45px;
+
 }
 @media screen and (max-width: 480px) {
   .tile.tile-256 {
@@ -411,10 +402,10 @@ hr {
   }
 }
 .tile.tile-512 {
-  color: #f9f6f2;
+  
   background: url('img/512.gif');
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-  font-size: 45px;
+  
 }
 @media screen and (max-width: 480px) {
   .tile.tile-512 {
@@ -422,10 +413,10 @@ hr {
   }
 }
 .tile.tile-1024 {
-  color: #f9f6f2;
+  
   background: url('img/1024.gif');
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-  font-size: 35px;
+  
 }
 @media screen and (max-width: 480px) {
   .tile.tile-1024 {
@@ -433,10 +424,10 @@ hr {
   }
 }
 .tile.tile-2048 {
-  color: #f9f6f2;
+  
   background: url('img/2048.gif');
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-  font-size: 35px;
+  
 }
 @media screen and (max-width: 480px) {
   .tile.tile-2048 {
@@ -779,4 +770,3 @@ hr {
   .game-message .lower {
     margin-top: 30px !important;
   }
-}
