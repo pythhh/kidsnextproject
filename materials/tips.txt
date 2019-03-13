@@ -1,0 +1,2 @@
+ทำ popup : https://www.w3schools.com/howto/howto_js_popup_form.asp
+ปุ่ม button : https://getbootstrap.com/docs/4.0/components/button-group/

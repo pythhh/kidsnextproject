@@ -28,7 +28,7 @@ GameManager.prototype.restart = function () {
 GameManager.prototype.setup = function () {
   this.grid         = new Grid(this.size);
 
-  this.score        = 0;
+  this.score        = 0; // คะแนนเริ่มต้น = 0
   this.over         = false;
   this.won          = false;
 
