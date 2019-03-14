@@ -15,6 +15,13 @@ body {
 		
 }
 
+img{
+	width: 200px;
+	height: 200px;
+	margin: 20px; 
+}
+
+
 
 #main {
 	display: flex;
@@ -50,9 +57,7 @@ h3{
 	color: #ffffff;
 	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
-img.profile:hover {
-	transform: rotate(20deg);
-}
+
 .bio{
 	color: #ffffff;
 	text-shadow: 2px 2px 2px rgb(0, 0, 0);

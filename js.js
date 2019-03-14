@@ -8,3 +8,22 @@ for (var i = 3; i < word_length; i++) {
 		document.querySelector('#word').innerHTML = document.querySelector('#word').innerHTML+char;
 	},600+time);
 }
+
+var bubble = [];
+
+function setup(){
+	createCanvas(600,400);
+}
+
+function mousePressed(){
+	var b = new bubble(mouseX, mouseY);
+	bubble.push(b)
+}
+
+function draw(){
+	background(0);
+	for (var i = bubbles.length - 1; i>= 0 ; i--){
+		bubbles[i].update();
+		bubbles[i].display();
+	}
+}
