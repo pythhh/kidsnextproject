@@ -3,7 +3,7 @@ body {
 	font-family: sans-serif;
 	margin:0;
 		/* The image used */
-		background-image: url("materials/bg/tenor.gif");
+		background-image: url("materials/bg.gif");
   
 		/* Full height */
 		height: 100%; 
@@ -42,7 +42,7 @@ img.profile {
 }
 h1 {
 	color: #ffffff;
-	text-shadow: 2px 2px 2px hsl(350, 60%, 55%);
+	text-shadow: 2px 2px 2px #8314ff;
 	font-size: 5em;
 	font-family: 'Kanit', sans-serif;
 }
