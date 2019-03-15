@@ -1,89 +1,119 @@
-body {
+body{
     background-color: black;
 }
-
-div {
-    margin-left: 1.5em;
+h1 {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
 }
-
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
 img {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.mercury{
+    border-radius: 50%;
+}
+.mercury:hover{
+    box-shadow: 0px 0px 100px white;
     width: 160px;
-    margin-top: 20%;
-    display: inline-block;
+    height: 160px;
+    transition: 1s;
 }
-
-.mercury {}
-
-.mercury:hover {
-    border:
+.venus{
+    border-radius: 50%;
 }
-
-/* Button used to open the contact form - fixed at the bottom of the page */
-.open-button {
-    background-color: #555;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.8;
-    position: fixed;
-
-    width: 50%;
+.venus:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
 }
-
-/* The popup form - hidden by default */
-.form-popup {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 15px;
-    border: 3px solid #f1f1f1;
-    z-index: 9;
+.venus{
+    border-radius: 50%;
 }
-
-/* Add styles to the form container */
-.form-container {
-    max-width: 300px;
-    padding: 10px;
-    background-color: white;
+.venus:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
 }
-
-/* Full-width input fields */
-.form-container input[type=text],
-.form-container input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
+.earth{
+    border-radius: 50%;
 }
-
-/* When the inputs get focus, do something */
-.form-container input[type=text]:focus,
-.form-container input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
+.earth:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
 }
-
-/* Set a style for the submit/login button */
-.form-container .btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom: 10px;
-    opacity: 0.8;
+.earth{
+    border-radius: 50%;
 }
-
-/* Add a red background color to the cancel button */
-.form-container .cancel {
-    background-color: red;
+.earth:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
 }
-
-/* Add some hover effects to buttons */
-.form-container .btn:hover,
-.open-button:hover {
-    opacity: 1;
+.mars{
+    border-radius: 50%;
+}
+.mars:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
+}
+.jupiter{
+    border-radius: 50%;
+}
+.jupiter:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
+}
+.saturn{
+    border-radius: 50%;
+}
+.saturn:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
+}
+.uranus{
+    border-radius: 50%;
+}
+.uranus:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
+}
+.neptune{
+    border-radius: 50%;
+}
+.neptune:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
+}
+.pluto{
+    border-radius: 50%;
+}
+.pluto:hover{
+    box-shadow: 0px 0px 100px white;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
 }
