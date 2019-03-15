@@ -1,18 +1,40 @@
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styleframe2.css">
-    </head>
-    <body>
-        <div>
-            <img class="merccury" src="solar/mercury1.png">
-            <img src="solar/venus2.png">
-            <img src="solar/earth3.png">
-            <img src="solar/mars4.png">
-            <img src="solar/jupiter5.png">
-            <img src="solar/saturn6.png">
-            <img src="solar/uranus7.png">
-            <img src="solar/neptune8.png">
-            <img src="solar/pluto9.png">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styleframe2.css">
+</head>
+
+<body>
+    <div>
+        <img class="merccury" src="solar/mercury1.png">
+        <img src="solar/venus2.png">
+        <img src="solar/earth3.png">
+        <img src="solar/mars4.png">
+        <img src="solar/jupiter5.png">
+        <img src="solar/saturn6.png">
+        <img src="solar/uranus7.png">
+        <img src="solar/neptune8.png">
+        <img src="solar/pluto9.png">
+    </div>
+    <div>
+        <button class="open-button" onclick="openForm()">Open Form</button>
+
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Login</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
         </div>
-    </body>
+
+    </div>
+</body>
+<script src="js.js"></script>
 </html>
