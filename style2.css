@@ -190,7 +190,7 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(70, 70, 70, 0.7);
+  background-image: url('yahoo/ezgif-3-6c315d88b61f.gif');
   z-index: 100;
   text-align: center;
   -webkit-animation: fade-in 800ms ease 1200ms;
