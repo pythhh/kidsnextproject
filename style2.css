@@ -207,7 +207,7 @@ hr {
   color: white;
 }
 .game-container .game-message .lower {
-  display: block;
+  display: inline-block;
   margin-top: 59px;
 }
 .game-container .game-message a {
