@@ -130,4 +130,17 @@ th {
     width: 520px;
     height: 620px;
 }
+a:link {
+  color: #F8F8FF;
+  background-color: transparent;
+}
+
+a:hover {
+color: red;
+}
+
+a:visited {
+color: #E0FFFF;
+}
+
 </style>
