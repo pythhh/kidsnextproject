@@ -188,7 +188,7 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(238, 228, 218, 0.5);
+  background: rgba(70, 70, 70, 0.7);
   z-index: 100;
   text-align: center;
   -webkit-animation: fade-in 800ms ease 1200ms;
@@ -201,7 +201,8 @@ hr {
   font-weight: bold;
   height: 60px;
   line-height: 60px;
-  margin-top: 222px;
+  margin-top: 180px;
+  color: white;
 }
 .game-container .game-message .lower {
   display: block;
@@ -209,7 +210,7 @@ hr {
 }
 .game-container .game-message a {
   display: inline-block;
-  background: #8f7a66;
+  background: #fff;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
