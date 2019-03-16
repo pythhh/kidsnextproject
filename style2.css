@@ -350,13 +350,13 @@ hr {
 }
 
 .tile {
-  color: rgba(238, 228, 218, 0.35);
+
   border-radius: 3px;
   background: #eee4da;
   text-align: center;
   font-weight: bold;
   z-index: 10;
-  font-size: 55px;
+  font-size: 0px;
   -webkit-transition: 100ms ease-in-out;
   -moz-transition: 100ms ease-in-out;
   -webkit-transition-property: top, left;
@@ -389,6 +389,7 @@ hr {
 .tile.tile-128 {
   background: url('materials/gif-new/7-128.gif');
   background-repeat: no-repeat;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.10048);
   
 }
 @media screen and (max-width: 480px) {
