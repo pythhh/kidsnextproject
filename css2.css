@@ -1,7 +1,11 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: black;}
-h1 {
-  text-align: center;
-  color: white;
+  background-image: url("yahoo/frame2-1.gif");
+  background-size: 100%;
 }
+img {
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 95px;
+}
+
