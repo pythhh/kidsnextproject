@@ -108,7 +108,7 @@ span.onclick = function() {
 }
 
 // Get the modal7
-var modal7 = document.getElementById('myModal4');
+var modal7 = document.getElementById('myModal7');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg7');
@@ -126,7 +126,7 @@ span.onclick = function() {
 }
 
 // Get the modal8
-var modal8 = document.getElementById('myModal5');
+var modal8 = document.getElementById('myModal8');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg8');
