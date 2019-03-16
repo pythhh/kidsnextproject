@@ -486,9 +486,6 @@ KeyboardInputManager.prototype.listen = function () {
 
   var retry = document.getElementsByClassName("retry-button")[0];
   retry.addEventListener("click", this.restart.bind(this));
-  
-  var retry = document.getElementsByClassName("knowledge")[0];
-  retry.addEventListener("click", this.restart.bind(this));
 
   // Listen to swipe events
   var gestures = [Hammer.DIRECTION_UP, Hammer.DIRECTION_RIGHT,
