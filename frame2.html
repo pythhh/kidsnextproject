@@ -1,41 +1,23 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="styleframe2.css">
+        <link rel="stylesheet" type="text/javascript" href="jsframe2.css">
         <link rel="icon" type="image/png" href="https://cdn2.iconfinder.com/data/icons/laptop-4/500/Computer_laptop_desktop_notebook_monito_screen_heart-512.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>knowledge of planet</title>
     </head>
     <body>
-        <h1>LET'S KNOW MORE ABOT PLANET</h1>&emsp;&emsp;
-        <div>
-            <a href="https://en.wikipedia.org/wiki/Mercury_(planet)" target="_blank"><img class="mercury" src="solar/mercury1.png"></a>
-            <a href="https://en.wikipedia.org/wiki/Venus" target="_blank"><img class="venus" src="solar/venus2.png"></a>
-            <a href="https://en.wikipedia.org/wiki/Earth" target="_blank"><img class="earth" src="solar/earth3.png"></a>
-            <a href="https://en.wikipedia.org/wiki/Mars" target="_blank"><img class="mars" src="solar/mars4.png"></a>
-            <a href="https://en.wikipedia.org/wiki/Jupiter" target="_blank"><img class="jupiter" src="solar/jupiter5.png"></a>
-            <a href="https://en.wikipedia.org/wiki/Saturn" target="_blank"><img class="saturn" src="solar/saturn6.png"></a>
-            <a href="https://en.wikipedia.org/wiki/Uranus" target="_blank"><img class="uranus" src="solar/uranus7.png"></a>
-            <a href="https://en.wikipedia.org/wiki/Neptune" target="_blank"><img class="neptune" src="solar/neptune8.png"></a>
-            <a href="https://en.wikipedia.org/wiki/Pluto" target="_blank"><img class="pluto" src="solar/pluto9.png"></a>
-        <table border = 5 bordercolor = white align = centertable background="/materials/giphy.gif">
-            <th colspan = 14><font color="white"><center>Facts of planet</center></font></th>
-            <tr>
-            <td><img class="td-img" src="materials/fact/mercury.gif"></th>
-            <td><img class="td-img" src="materials/fact/venus.gif"></th>
-            <td><img class="td-img" src="materials/fact/earth.gif"></img></td>
-            </tr>
-            <tr>
-            <td><img class="td-img" src="materials/fact/mars.gif"></th>
-            <td><img class="td-img" src="materials/fact/jupiter.gif"></th>
-            <td><img class="td-img" src="materials/fact/saturn1.gif"></img></td>
-            </tr>
-            <tr>
+        <h2>Image Modal</h2>
+        <p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
+        <p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
 
-                <td><img class="td-img" src="materials/fact/ceres.gif"></th>
-                <td><img class="td-img" src="materials/fact/pluto.gif"></img></td>
-                <td><img class="td-sun" src="materials/fact/1e524550d159edb15a12a38383e72378.gif"></th>
-            </tr>
-        </table>
-    <h2><a href="index.html">Cilck here back to the game</font></h2>
-    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+        <img id="myImg" src="materials/new/1.png" alt="Snow" style="width:100%;max-width:300px">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" src="materials/fact/earth.gif">
+        <div id="caption"></div>
+        </div>
     </body>
 </html>
