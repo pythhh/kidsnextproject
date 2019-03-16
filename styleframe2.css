@@ -117,3 +117,17 @@ img {
     height: 160px;
     transition: 1s;
 }
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.td-img {
+    width: 500px;
+    height: 690px;
+}
+.td-sun {
+    width: 520px;
+    height: 620px;
+}
+</style>
