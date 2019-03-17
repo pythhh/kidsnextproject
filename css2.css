@@ -14,14 +14,10 @@ img {
   top: 53%;
   right: 27%;
 }
-
-/* .arrow{
-  margin-top: -1vh;
-  width: 20%;
-  margin-left: 160vh;
-  display: block;
-}
-
 .arrow:hover{
   opacity: 0.5;
-} */
+}
+p {
+  size: 30px;
+  color: black;
+}
