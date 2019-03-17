@@ -536,6 +536,6 @@ Tile.prototype.updatePosition = function (position) {
   this.y = position.y;
 };
 
-if(self.won === true) {
+if(self.won === false) {
   document.getElementById('winsound').play();
 }
