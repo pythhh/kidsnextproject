@@ -1,4 +1,4 @@
- document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   // Wait till the browser is ready to render the game (avoids glitches)
   window.requestAnimationFrame(function () {
     var manager = new GameManager(4, KeyboardInputManager, HTMLActuator);
@@ -37,6 +37,7 @@ GameManager.prototype.setup = function () {
 
   // Update the actuator
   this.actuate();
+  document.getElementById('bgsound').play();
 };
 
 // Set up the initial tiles to start the game with
@@ -140,6 +141,7 @@ GameManager.prototype.move = function (direction) {
 
     if (!this.movesAvailable()) {
       this.over = true; // Game over!
+      document.getElementById('bgsound').pause();
     }
 
     this.actuate();
@@ -345,6 +347,7 @@ HTMLActuator.prototype.actuate = function (grid, metadata) {
 
 HTMLActuator.prototype.restart = function () {
   this.clearMessage();
+  
 };
 
 HTMLActuator.prototype.clearContainer = function (container) {
@@ -421,7 +424,7 @@ HTMLActuator.prototype.updateScore = function (score) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!"
+  var message = won ? "Mission Complete!" : "Mission Fail!"
 
   // if (ga) ga("send", "event", "game", "end", type, this.score);
 
