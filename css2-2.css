@@ -11,7 +11,7 @@ img {
 .arrow {
   position: absolute;
   width: 6%;
-  top: 65vh;
+  top: 63vh;
   left: 32%;
 }  
 .arrow:hover{
@@ -20,7 +20,7 @@ img {
 .mission {
     width: 15%;
     position: absolute;
-    top: 62vh;
+    top: 61vh;
     left: 43%;
 }
 .mission:hover{
