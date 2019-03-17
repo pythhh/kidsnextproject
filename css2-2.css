@@ -1,0 +1,27 @@
+body {
+    background-image: url("yahoo/frame2-1.gif");
+    background-size: 100%; 
+  }
+  img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 10vh;
+  }
+  .arrow {
+    position: absolute;
+    width: 6%;
+    top: 53%;
+    right: 27%;
+  }
+  
+  /* .arrow{
+    margin-top: -1vh;
+    width: 20%;
+    margin-left: 160vh;
+    display: block;
+  }
+  
+  .arrow:hover{
+    opacity: 0.5;
+  } */
