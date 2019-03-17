@@ -536,7 +536,7 @@ Tile.prototype.updatePosition = function (position) {
   this.y = position.y;
 };
 
-if(self.won === false) {
+if(self.won === true) {
   document.getElementById('winsound').play();
 }
 // Get the modal
@@ -555,4 +555,8 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
   modal.style.display = "none";
+}
+
+if (merged.value === 2048) {
+  document.getElementById('winsound').play();
 }
