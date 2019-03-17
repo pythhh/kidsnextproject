@@ -10,7 +10,7 @@ function GameManager(size, InputManager, Actuator) {
   this.inputManager = new InputManager;
   this.actuator     = new Actuator;
 
-  this.startTiles   = '2';
+  this.startTiles   = 2;
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
@@ -39,9 +39,7 @@ GameManager.prototype.setup = function () {
   this.actuate();
 
 
-  var soundBg = document.getElementById('bgsound');
-  soundBg.loop = true;
-  soundBg.play();
+  document.getElementById('bgsound').play();
 };
 
 // Set up the initial tiles to start the game with
@@ -145,7 +143,7 @@ GameManager.prototype.move = function (direction) {
 
     if (!this.movesAvailable()) {
       this.over = true; // Game over!
-      soundBg.pause();
+      document.getElementById('bgsound').pause();
     }
 
     this.actuate();
