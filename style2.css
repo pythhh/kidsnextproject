@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background:url('https://thumbs.gfycat.com/DamagedUnfortunateAmericanbadger-size_restricted.gif')  no-repeat center center fixed;
+  background:url('http://www.cerc-ug.org/pic/b/109/1095594_pixel-gif-wallpaper.gif')  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -69,14 +69,14 @@ h1.title {
 .score-container {
   position: relative;
   float: right;
-  background: #bbada0;
+  background: white;
   padding: 15px 25px;
   font-size: 20px;
   height: 1.3em;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: black;
   margin-top: 8px;
   width: 2.5em;
   text-align: center;
@@ -94,7 +94,7 @@ h1.title {
   font-size: 13px;
   line-height: 13px;
   text-align: center;
-  color: white;
+  color: black;
 }
 .score-container .score-addition {
   position: absolute;
