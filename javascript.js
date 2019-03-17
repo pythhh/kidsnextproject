@@ -137,13 +137,16 @@ GameManager.prototype.move = function (direction) {
       }
     });
   });
-
+  var audio = new Audio();
+  audio.src = 'sound/over.mp3'
+  
   if (moved) {
     this.addRandomTile();
 
     if (!this.movesAvailable()) {
       this.over = true; // Game over!
       document.getElementById('bgsound').pause();
+      audio.play();
     }
 
     this.actuate();
