@@ -17,12 +17,12 @@ img {
 .arrow:hover{
   opacity: 0.5;
 }
-h2 {
-    color: white;
+.mission {
+    width: 15%;
     position: absolute;
-    top: 70%;
-    left: 44%;
+    top: 60%;
+    left: 43%;
 }
-h2:hover{
+.mission:hover{
     opacity: 0.5;
 }
