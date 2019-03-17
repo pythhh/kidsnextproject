@@ -8,3 +8,5 @@ for (var i = 3; i < word_length; i++) {
 		document.querySelector('#word').innerHTML = document.querySelector('#word').innerHTML+char;
 	},600+time);
 }
+var audio = new Audio();
+audio.src = 'sound/click.mp3'

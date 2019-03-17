@@ -37,7 +37,11 @@ GameManager.prototype.setup = function () {
 
   // Update the actuator
   this.actuate();
-  document.getElementById('bgsound').play();
+
+
+  var soundBg = document.getElementById('bgsound');
+  soundBg.loop = true;
+  soundBg.play();
 };
 
 // Set up the initial tiles to start the game with
@@ -141,7 +145,7 @@ GameManager.prototype.move = function (direction) {
 
     if (!this.movesAvailable()) {
       this.over = true; // Game over!
-      document.getElementById('bgsound').pause();
+      soundBg.pause();
     }
 
     this.actuate();
