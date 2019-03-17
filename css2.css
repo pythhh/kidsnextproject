@@ -11,8 +11,8 @@ img {
 .arrow {
   position: absolute;
   width: 6%;
-  top: 53%;
-  right: 27%;
+  top: 63%;
+  right: 32%;
 }
 .arrow:hover{
   opacity: 0.5;
