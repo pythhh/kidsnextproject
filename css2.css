@@ -11,7 +11,7 @@ img {
 .arrow {
   position: absolute;
   width: 6%;
-  top: 63%;
+  top: 68vh;
   right: 32%;
 }
 .arrow:hover{
